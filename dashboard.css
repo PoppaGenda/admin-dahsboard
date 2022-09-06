@@ -158,6 +158,21 @@ li:hover {
   text-align: left;
   color:black;
   word-wrap: break-word;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin:20px;
+}
+#int, #int1{
+  margin:15px;
+  
+}
+#int1{
+  border-top:2px solid rgb(209, 205, 205);
+  border-bottom:2px solid rgb(209, 205, 205);
+}
+.kawai{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 #head2 {
   font-size: 28px;
