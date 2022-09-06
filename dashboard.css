@@ -1,0 +1,178 @@
+body{
+  font-family:sans-serif; 
+}
+.container {
+  width: auto;
+  height: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr ;
+}
+/* header */
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #ffffff;
+}
+/* navigation bar within header */
+.navigation {
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+  margin-top: 20px;
+}
+.logo {
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+}
+#search {
+  display: flex;
+  flex-direction: row;
+}
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(233, 224, 224);
+}
+label{
+  margin-left:30px;
+}
+#profile {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+  justify-content: space-between;
+}
+/* details */
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+#dimg {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  font-weight: bold;
+  gap:25px;
+  
+}
+button{
+  margin:20px;
+  background-color: #1AA3D9;
+  color:white;
+  font-weight:bold ;
+  font-size:18px;
+  padding:15px;
+  border-radius: 40px;;
+
+}
+button:hover{
+  background-color: #dbe95d;
+
+}
+/* sidebar */
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: #1AA3D9;
+}
+#sidebar-heading{
+  color:white;
+  text-align: center;
+}
+li{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+li:hover {
+  text-decoration: dashed;
+  color: #dbe95d;
+  font-weight: bold;
+  font-size: larger;
+}
+/* content */
+.content {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: gainsboro;
+}
+/* the quote box */
+.quotes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* cards within the quote section */
+.card {
+  border-left: 10px solid yellow;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 25px;
+  text-align: center;
+  color: black;
+  position: relative;
+ 
+}
+.listsvg{
+  position: absolute;
+  bottom:0;
+  right:0;
+
+}
+
+#head {
+  font-size: 28px;
+  font-weight: bold;
+}
+/* the update section */
+.updates {
+  display: grid;
+  grid-template-rows: 25px 4fr 25px 4fr;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+/* cards within the update section */
+.upbox {
+  margin: 20px;
+  border: 2px solid rgb(8, 8, 8);
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: left;
+  color:black;
+  word-wrap: break-word;
+}
+#head2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+svg {
+  width: 30px;
+  height: 30px;
+}
